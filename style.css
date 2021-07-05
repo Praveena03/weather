@@ -1,0 +1,133 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+   
+    body {
+        background-color:rgb(126, 126, 230);
+    }
+
+    h1 {
+      
+        color: rgb(5, 0, 0);
+        font-family: 'TimesNewRoman';
+        size: 100PX;
+
+    }
+
+    .row {
+        width: 300px;
+        
+        background-color: white;
+        margin-left: 300px;
+    }
+
+    input {
+        height: 45px;
+        border: none;
+        /* border-radius: 6%; */
+        width: 200px;
+        margin-left: 520px;
+        background: transparent;
+        border-bottom: 1px solid rgb(65, 4, 94);
+
+    }
+    button{
+        border: none;
+        height: 45px;
+        width: 100px;
+        border-radius: 5%;
+        margin-left: 5px;
+        color: rgb(255, 255, 255);
+        background: linear-gradient(to left,rgb(1, 5, 63),rgb(38, 3, 235));
+    }
+    .top{
+        display: flex;
+    }
+    .row{
+        display: flex;
+        width:700px;
+    }
+    .col1{
+        display: flex;
+    }
+    #result{
+        margin-left: 65%;
+    }
+    .coll{
+        width: 175px;
+        height: 200px;
+        padding: 30px;
+    }
+    p{
+        font-family: 'Concert One', cursive;
+        color: rgb(5, 33, 158);
+    }
+    small{
+        font-family: 'Pacifico', cursive;
+        font-size: 20px;
+    }
+    .l{
+        background-color: rgb(235, 233, 233);
+    }
+    .footer{
+        margin-top:180px;
+        /* margin-left:35% ; */
+    }
+    .foot{
+        font-family: 'Sacramento', cursive;
+        font-size: 24px;
+        color: black;
+    }
+    @media(max-width:640px){
+        .row{
+            width: 90%;
+            margin-left: 35px;
+            margin-right: 10px;
+        }
+      
+        input{
+           
+            margin-left: 100px;
+            margin-right: 5px;
+        }
+        button{
+           
+            margin-right: 5px;
+        }
+        .coll{
+            width: 25%;
+        }
+      
+    }
+    @media(max-width:388px){
+        .row{
+            width: 100%;
+             margin-left: 0px; 
+             padding: 5px;
+         
+        }
+        .coll{
+            width:35%;
+            padding: 5px;
+        }
+        small{
+            font-size: 12px;
+        }
+        button{
+            width: 70px;
+            font-size: 12px;
+            margin-left:150px;
+           
+        }
+        .footer{
+        margin-top:80px;
+       
+    }
+
+    }
+ 

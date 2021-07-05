@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API fetching</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d56d18e9db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+
+<body>
+    <div class="text-center wid mt-5">
+        <h1>WEATHER FORECAST</h1>  
+    </div> 
+    <div class="inp">
+    <input type="text" class="mt-3" placeholder="enter city " id="city">
+    <button class="mt-3" onclick="fetchWeather()">Get update</button>
+    </div>
+    <!-- display -->
+    <div class="row text-center mt-5 ">
+        <div class="col border border-light border-2 top">
+            <small><i class="fas me-1 fa-sun"></i>weather</small>
+            <p id="result"></p>
+        </div>
+        <div class="col1">
+            <div class="coll mx-auto l ">
+                <i class="fas fa-2x mt-2  mb-2 fa-thermometer-three-quarters" style="color: rgb(243, 194, 102);"></i> <br>
+               <small>Temparature</small> 
+                <p class="mt-2" id="result1"></p>
+            </div>
+
+            <div class="coll mx-auto ">
+                <i class="fas mt-2   mb-2  fa-2x fa-tint" style="color: rgb(93, 198, 247);"></i> <br>
+               <small>Humidity</small> 
+                <p class="mt-2" id="result2"></p>
+            </div>
+
+            <div class="coll mx-auto l ">
+                <i class="fas mt-2   mb-2  fa-2x fa-cloud" style="color: rgb(66, 245, 245);"></i> <br>
+                <small>Weather</small> 
+                <p class="mt-2" id="result3"></p>
+            </div>
+            <div class="coll  mx-auto ">
+                <i class="fas mt-3   mb-2   fa-wind" style="color: rgb(65, 4, 94);"></i>  <br>
+               <small>Wind Speed</small> 
+                <p class="mt-2" id="result4"></p>
+            </div>
+        </div>
+    </div>
+    <!--  display ends -->
+    
+   
+   
+
+
+</body>
+
+</html>
